@@ -18,7 +18,7 @@ And the middle of the training phase:
 <img src="https://github.com/slhmath/Deep_Actor_Critic_Acrobot/blob/main/train_mid.gif" width="200" height="200">
 
 
-After training is complete, the Deep Q-Network has discovered an approximately optimal policy. Below are examples of how the trained agent peforms on the first 4 test runs:
+After training is complete, the Actor Deep Q-Network has discovered an approximately optimal policy. Below are examples of how the trained agent peforms on the first 4 test runs:
 
 
 <img src="https://github.com/slhmath/Deep_Actor_Critic_Acrobot/blob/main/try_1.gif" width="200" height="200">
