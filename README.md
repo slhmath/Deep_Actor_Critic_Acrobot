@@ -5,7 +5,7 @@ The Actor represents the policy structure determined by one DNN, as it determine
 
 The Actor and Critic learn during training, so that the recommended actions from the Critic maximize the agents reward.
 
-The agents 'goal' is to swing its two limbs so that the intermediate joint breaches the horizontal bar directly above it.
+The agents 'goal' is to swing its two limbs so that the lower limb breaches the horizontal bar directly above it.
 Here is a sample of the agent performing during the beginning of the training phase: 
 
 
