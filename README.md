@@ -6,34 +6,44 @@ The Actor represents the policy structure determined by one DNN, as it determine
 The Actor and Critic learn during training, so that the recommended actions from the Critic maximize the agents reward.
 
 The agents 'goal' is to swing its two limbs so that the intermediate joint breaches the horizontal bar directly above it.
-Here is a sample of the agent performing during the training phase: 
+Here is a sample of the agent performing during the beginning of the training phase: 
 
 
-<img src="https://github.com/slhmath/Deep_Q_Reinforcement_Learning_Acrobot/blob/main/DeepQ_Acrobot_Training.gif" width="200" height="200">
+<img src="https://github.com/slhmath/Deep_Actor_Critic_Acrobot/blob/main/train_beg.gif" width="200" height="200">
+
+
+And the middle of the training phase: 
+
+
+<img src="https://github.com/slhmath/Deep_Actor_Critic_Acrobot/blob/main/train_mid.gif" width="200" height="200">
 
 
 After training is complete, the Deep Q-Network has discovered an approximately optimal policy. Below are examples of how the trained agent peforms on the first 4 test runs:
 
 
-<img src="https://github.com/slhmath/Deep_Q_Reinforcement_Learning_Acrobot/blob/main/Test_Run_1.gif" width="200" height="200">
+<img src="https://github.com/slhmath/Deep_Actor_Critic_Acrobot/blob/main/try_1.gif" width="200" height="200">
 
 
-(Run 1. Steps: 111)
+(Run 1)
 
 
-<img src="https://github.com/slhmath/Deep_Q_Reinforcement_Learning_Acrobot/blob/main/Test_Run_2.gif" width="200" height="200">
+
+<img src="https://github.com/slhmath/Deep_Actor_Critic_Acrobot/blob/main/try_2.gif" width="200" height="200">
 
 
-(Run 2. Steps: 82)
+(Run 2)
 
 
-<img src="https://github.com/slhmath/Deep_Q_Reinforcement_Learning_Acrobot/blob/main/Test_Run_3.gif" width="200" height="200">
+
+<img src="https://github.com/slhmath/Deep_Actor_Critic_Acrobot/blob/main/try_3.gif" width="200" height="200">
 
 
-(Run 3. Steps: 96)
+(Run 3)
 
 
-<img src="https://github.com/slhmath/Deep_Q_Reinforcement_Learning_Acrobot/blob/main/Test_Run_4.gif" width="200" height="200">
+
+<img src="https://github.com/slhmath/Deep_Actor_Critic_Acrobot/blob/main/try_4.gif" width="200" height="200">
 
 
-(Run 4. Steps: 83)
+
+(Run 4)
